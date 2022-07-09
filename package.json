@@ -4,7 +4,7 @@
   "description": "",
   "main": "Main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Main.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
   "_moduleAliases": {
     "@mod": "./modules",
     "@utils": "./utils"
-  }
+  },
+    "engines": {
+      "node": ">=0.10.3 <15"
+    }
 }
